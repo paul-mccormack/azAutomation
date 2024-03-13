@@ -9,10 +9,10 @@ Import-Module Az.Accounts
 Import-Module Az.Resources
 
 # Define the tag name as a variable
-$tagName = "autoOwnerTag"
+$tagName = "autoDeployedBy"
 
 #Adjust to suit your management group, this is the top scope that the Script will run under
-$ManagementGroupID = 'MG-Sandbox'
+$ManagementGroupID = 'MG-SCC-Common'
 
 
 <# Connect using a Managed Service Identity #>
